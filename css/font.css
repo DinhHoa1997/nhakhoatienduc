@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family:Lato-B;
+    src: url('fonts/Lato\ Black.ttf');
+    font-display: swap;
+    font-weight: normal;
+}
+@font-face {
+    font-family:Lato-R;
+    src: url('fonts/Lato\ Semibold.ttf');
+    font-display: swap;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:Lato;
+    src: url('fonts/Lato\ Medium.ttf');
+    font-display: swap;
+    font-weight: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family:Great;
+    src: url('fonts/GreatVibes-Regular.ttf');
+    font-display: swap;
+    font-weight: normal;
+    font-weight: normal;
+}
+
+

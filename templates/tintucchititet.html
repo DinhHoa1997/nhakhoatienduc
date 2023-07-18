@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="vi" xmlns="http://www.w3.org/1999/xhtml"  xml:lang="vi">
+
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Page-name</title>
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+        <meta name="theme-color" content="#0099ff" />
+
+        <meta http-equiv="Content-Language" content="VN" />
+        <meta name="description" content="Page-name" />
+        <meta name="keywords" content="" />
+        <meta property="og:url" name="og:url" content="" data-app/>
+        <meta property="og:type" name="og:type" content="website" data-app/>
+        <meta property="og:description" name="og:description" content="Page-name" data-app/>
+        <meta property="og:title" name="og:title" content="Page-name" data-app/>
+
+        <meta property="og:image" name="og:image" content="/uploaded/logo/logo.png" data-app>
+        <meta property="og:image:alt" name="og:image:alt" content="/uploaded/logo/logo.png" data-app>
+        <link href="/favicon.ico" rel="shortcut icon" />        
+
+     
+        <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+        <link rel="stylesheet" type="text/css" href="/css/grid.css" />
+        <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       
+        <link rel="stylesheet" type="text/css" href="/css/font.css" />
+        <link rel="stylesheet" type="text/css" href="/css/fontawesome-5.12.1/css/all.min.css" />
+        <link rel="stylesheet" type="text/css" href="/css/jquery.mmenu.all.css" />
+        <link rel="stylesheet" href="/css/jquery-ui.css" />
+
+        <link rel="stylesheet" href="/css/jquery.fancybox.css" />
+        <link rel="stylesheet" href="/css/hover.css" />
+        <script src="/js/jquery-1.10.1.min.js"></script>
+
+
+        
+      
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.6/swiper-bundle.min.js"></script>       
+
+    </head>    
+
+
+<body>
+
+
+
+<div id="page">
+
+
+    <!-- header pc -->
+    <header class="header hide-on-pad hide-on-tab">
+      <div class="grid">
+        
+        <div class="flex-container align-center">
+            <div class="cell-1-10">
+              <div class="logo">
+                <a href="/">
+                  <img src="/uploaded/logo/logo.png" alt="LogoSite"
+                    style="margin-left:0px"></a>
+                </div>
+            </div>
+           <div class="cell-9-10">
+            <div class="menubar">
+              <ul class="nav  hide-on-mobile">
+                  <li class=" active ">
+                    <a href="/" class=""><span style="background-image:url()"> Trang chủ       
+                  </li>
+                  <li class=" ">
+                    <a href="/" class="">
+                          <span style="background-image:url()"> Giới thiệu</span>
+                            </a>
+                      <ul class="submnu1" style="display: none;">
+                        <li class="">
+                          <a href="/phat-trien-dien-nang/">Về chúng tôi</a>
+                        </li>
+                        <li class="">
+                          <a href="/dau-tu-bat-dong-san/">Lịch sử hình thành</a>
+                        </li>
+                    </ul>
+                  </li>
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Niềng răng    
+                  </li>
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Trồng răng implant 
+                  </li>
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Thông tin
+                  </li>
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Media 
+                  </li> 
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Liên hệ
+                  </li> 
+              </ul>
+              <div class="btn-datlich">
+                  <a href="#"> Đặt lịch hẹn</a>
+              </div>
+              <div class="btn-hotline">
+                <a href="#"><i class="fas fa-phone    "></i> 0987.304.037</a>
+              </div>
+              <div class="icon-search">
+                <i class="fa fa-search search-icon" aria-hidden="true"></i> 
+                <div class="search-pc" style="display: none;">
+                    <form action="/search/" method="get" id="searchformtab">
+                        <input name="qr" id="qr_search" class="kw-mobile" placeholder="Tìm kiếm" type="text">
+                            <!-- <a href="#" class="submit-search-pc" onClick=""> 
+                                <i class="fa fa-search" aria-hidden="true"></i> </a> -->
+
+                            <a href="#" class="closeX" onclick="$('.search-pc').hide(); return false;">✕</a>        
+                    </form>
+                </div>
+                <script type="text/javascript">
+
+                    $(".submit-search-pc").click(function () {
+                        if ($("#qr_search").val() != "")
+                            $('#searchformtab').submit();
+                        return false;
+
+                    });
+
+                    $(document).ready(function () {
+                        $(".search-icon").click(function () {
+                            $(".search-pc").stop().slideToggle("fast");
+                            return false;
+                        });
+                    });
+                </script>  	
+                <div class="c"></div>
+              </div>
+              <div class="lang-flag">
+                  <a href="#">Vi</a> 
+              </div>
+           </div>
+          </div>
+        </div>
+      <div class="c"></div>
+    </header>
+    <!-- end header pc -->
+    <header class="header hide-on-pc error">
+      <div class="mobile-bar hide-on-pc">
+        <div class="grid">
+            <div class="flex-container align-center">
+                <div class="cell-1-3">
+                   
+                    <a class="menu-mobile" href="#menu">
+                      <i class="fas fa-bars"></i>
+                   </a>
+                   
+                </div>
+                <div class="cell-1-3">
+                 
+                  <div class="logo">
+                      <a href="/">
+                        <img src="/uploaded/logo/Logo_full 1.png" alt="Logo web" style="max-width: 100%; margin: 0 auto" />
+                      </a>
+                  </div>
+                 
+              </div>
+            
+                <div class="icon-search search-mb" >
+                  <i class="fa fa-search search-iconmb" aria-hidden="true"></i>
+                    <div class="frm-search-mb" >
+                     <form action="/search/" method="get" id="searchformtab">
+                        <input name="qr" class="kw-mobile" placeholder="Tìm kiếm " type="text">
+                        <a href="#" class="submit-search-pc" onClick="$('#searchformtab').submit(); return false;"> 
+                          <i class="fa fa-search" aria-hidden="true"></i> </a>
+  
+                        <a href="#" class="closeX" onClick="$('.frm-search-mb').hide(); return false;">&#10005;</a>        
+                      </form>
+                    </div> 
+                    
+                    <script>
+                      $(document).ready(function () {
+                      $(".search-iconmb").click(function () {
+                        $(".frm-search-mb").stop().slideToggle("fast");
+                        return false;
+                      });
+                      });
+                    </script>  	
+                   </div>
+               
+            </div>
+            </div>
+        </div>
+        <div class="c"></div>
+      
+    </header>
+    <!-- content -->
+    <div class="content">
+        <div class="img-poster" style="position:relative">
+    
+            <div class="img-poster" style="position:relative">
+                <a class="hide-on-tab" href="">
+                    <img src="/uploaded/pic-cat/piccat2.png" alt="" width="100%">
+                </a>  
+            </div>
+            
+         </div>
+       
+     
+     
+       <div class="newsdetail-wrapper">
+          <div class="c30"></div>
+          <div class="c20 hide-on-mobile"></div>
+            <div class="grid">
+                <div class="flex-container">
+                    <div class="cell-3-4 tab-cell-1-1">
+                     
+                    </div>
+                    <div class="cell-1-4 tab-cell-1-1">
+                        <div class="menuleft">
+                            <div class="title-left">
+                                Dịch vụ nha khoa
+                            </div>
+                            <ul>
+                              <li> <a href="#">Trồng răng implant</a></li>
+                              <li> <a href="#">Niềng răng</a></li>
+                              <li> <a href="#">Nhổ răng khôn</a></li>
+                              <li> <a href="#">Răng sứ thẩm mĩ</a></li>
+                            </ul>
+                        </div>
+                        <div class="c30"></div>
+                        <div class="menuleft">
+                          <div class="title-page">
+                              Các tin liên quan
+                          </div>
+                          <div class="c20"></div>
+      
+                          <div class="featured-item"> 
+                              <a href="" class="featured-item-img img-shine">
+                                  <img src="/uploaded/tin-tuc/item1.png" alt="" width="100%">
+                              </a>
+                              <div class="featured-item-name text-line-3">
+                                  <a href="">Lorem ipsum dolor sit amet consectetur adipis cing elit sed do eiusmod tempor incididunt...  </a>
+                              </div>
+                          </div>
+                          <div class="featured-item"> 
+                              <a href="" class="featured-item-img img-shine">
+                                  <img src="/uploaded/tin-tuc/item1.png" alt="" width="100%">
+                              </a>
+                              <div class="featured-item-name text-line-3">
+                                  <a href="">Lorem ipsum dolor sit amet consectetur adipis cing elit sed do eiusmod tempor incididunt...  </a>
+                              </div>
+                          </div>
+                          <div class="featured-item"> 
+                              <a href="" class="featured-item-img img-shine">
+                                  <img src="/uploaded/tin-tuc/item1.png" alt="" width="100%">
+                              </a>
+                              <div class="featured-item-name text-line-3">
+                                  <a href="">Lorem ipsum dolor sit amet consectetur adipis cing elit sed do eiusmod tempor incididunt...  </a>
+                              </div>
+                          </div>
+                          <div class="featured-item"> 
+                              <a href="" class="featured-item-img img-shine">
+                                  <img src="/uploaded/tin-tuc/item1.png" alt="" width="100%">
+                              </a>
+                              <div class="featured-item-name text-line-3">
+                                  <a href="">Lorem ipsum dolor sit amet consectetur adipis cing elit sed do eiusmod tempor incididunt...  </a>
+                              </div>
+                          </div>
+                          
+      
+                      </div>
+                    </div>
+                    
+               </div>
+            </div>
+          <div class="c30"></div>
+          
+          <div class="c20 hide-on-mobile"></div>
+          <div class="c20 hide-on-mobile"></div>
+       </div>
+       <div class="othernews-wrapper">
+        <div class="c30"></div>
+        <div class="c20 hide-on-mobile"></div>
+            <div class="grid">
+                <div class="homecat-title">
+                        Bài viết liên quan
+                </div>
+                <div class="c30"></div>
+                <div class="flex-container">
+                    <div class="cell-1-2 tab-cell-1-1">
+                        <div class="othernews-item">
+                            <div class="othernews-img">
+                                    <a href="#"> <img src="/uploaded/tin-tuc/item1.png" alt=""></a>
+                            </div>
+                            <div class="othernews-desc">
+                                    <div class="creatdate">
+                                    <i class="far fa-clock"></i> NGÀY 06.06.2023
+                                    </div>
+                                    <div class="homenews-item__name"> 
+                                    <a href="#" class="text-line-2">
+                                        Lorem ipsum dolor sit amet consectetur adipi scing elitsed do eiusmod tempor
+                             </a>
+                                    
+                                    </div>
+                                    
+                                    <div class="text-line-2 homenews-item--intro">
+                                        Cididunt ut labore et dolore magna aliqua. Quis ipsu suspendisse ultrices gravida isus commodo ve ultrices gravida iverra...
+       
+                                    </a>
+                                    </div>
+                                
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                        <div class="othernews-item">
+                            <div class="othernews-img">
+                                    <a href="#"> <img src="/uploaded/tin-tuc/item1.png" alt=""></a>
+                            </div>
+                            <div class="othernews-desc">
+                                    <div class="creatdate">
+                                    <i class="far fa-clock"></i> NGÀY 06.06.2023
+                                    </div>
+                                    <div class="homenews-item__name"> 
+                                    <a href="#" class="text-line-2">
+                                        Lorem ipsum dolor sit amet consectetur adipi scing elitsed do eiusmod tempor
+                             </a>
+                                    
+                                    </div>
+                                    
+                                    <div class="text-line-2 homenews-item--intro">
+                                        Cididunt ut labore et dolore magna aliqua. Quis ipsu suspendisse ultrices gravida isus commodo ve ultrices gravida iverra...
+       
+                                    </a>
+                                    </div>
+                                
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                        <div class="othernews-item">
+                            <div class="othernews-img">
+                                    <a href="#"> <img src="/uploaded/tin-tuc/item1.png" alt=""></a>
+                            </div>
+                            <div class="othernews-desc">
+                                    <div class="creatdate">
+                                    <i class="far fa-clock"></i> NGÀY 06.06.2023
+                                    </div>
+                                    <div class="homenews-item__name"> 
+                                    <a href="#" class="text-line-2">
+                                        Lorem ipsum dolor sit amet consectetur adipi scing elitsed do eiusmod tempor
+                             </a>
+                                    
+                                    </div>
+                                    
+                                    <div class="text-line-2 homenews-item--intro">
+                                        Cididunt ut labore et dolore magna aliqua. Quis ipsu suspendisse ultrices gravida isus commodo ve ultrices gravida iverra...
+       
+                                    </a>
+                                    </div>
+                                
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                        <div class="othernews-item">
+                            <div class="othernews-img">
+                                    <a href="#"> <img src="/uploaded/tin-tuc/item1.png" alt=""></a>
+                            </div>
+                            <div class="othernews-desc">
+                                    <div class="creatdate">
+                                    <i class="far fa-clock"></i> NGÀY 06.06.2023
+                                    </div>
+                                    <div class="homenews-item__name"> 
+                                    <a href="#" class="text-line-2">
+                                        Lorem ipsum dolor sit amet consectetur adipi scing elitsed do eiusmod tempor
+                             </a>
+                                    
+                                    </div>
+                                    
+                                    <div class="text-line-2 homenews-item--intro">
+                                        Cididunt ut labore et dolore magna aliqua. Quis ipsu suspendisse ultrices gravida isus commodo ve ultrices gravida iverra...
+       
+                                    </a>
+                                    </div>
+                                
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        <div class="c30"></div>
+          <div class="c20 hide-on-mobile"></div>
+       </div>
+  
+    <!-- end content -->
+
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+     <div class="c30"></div>
+      <div class="footer-main">
+        <div class="grid">
+
+          <div class="flex-container">
+            <div class="cell-1-4 tab-cell-1-1">
+              <div class="footer-block">
+                <div class="footer-title footer-title-mobile" rel="ct">
+                  Nha khoa Tiến Đức DRTIDD
+                </div>
+               
+                  <div class="info">
+                    <i class="fas fa-map-marker-alt"></i> 16S3 KĐT Hà Tiên, Liên Bảo, Vĩnh Yên,Vĩnh Phúc
+                  </div>
+                 
+                <div class="info">
+                  <i class="far fa-envelope"></i> info@company.com
+              </div>
+  
+                <div class="info">
+                  <i class="fal fa-globe"></i> company.com
+              </div>
+  
+                </div>
+              
+            
+            </div>
+            <div class="cell-1-4 tab-cell-1-1">
+              <div class="footer-block">
+              <div class="footer-title footer-title-mobile" rel="ct">
+                 Liên kết nhanh
+              </div>
+                <ul class="menuboxfooter" id="boxcol5">
+                  <li><a href="/gioi-thieu-chung/"> Giới thiệu chung</a></li>
+                  <li><a href="/tam-nhin-chien-luoc/"> Tầm nhìn chiến lược </a></li>
+                  <li><a href="/gia-tri-cot-loi/"> Giá trị cốt lõi</a></li>
+                </ul>
+              
+              </div>
+          </div>
+            <div class="cell-1-4 tab-cell-1-1">
+              <div class="footer-block">
+                  
+
+
+                <div class="footer-title footer-title-mobile" rel="ct">
+                  Bản đồ chỉ đường
+               </div>
+               <div class="c5"></div>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7433.2184386419185!2d105.59686838938586!3d21.326452215792887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134e55b8be09fd5%3A0x3c5c85a1abcc7f73!2zS2h1IMSRw7QgdGjhu4sgSMOgIFRpw6puLCBMacOqbiBC4bqjbywgVHAuIFbEqW5oIFnDqm4sIFbEqW5oIFBow7pjLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1688717341262!5m2!1svi!2s" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+             
+             
+
+              </div>
+
+          </div>
+          
+        <div class="cell-1-4 tab-cell-1-1">
+          <div class="footer-block">
+            <div class="footer-title footer-title-mobile" rel="ct">
+             Fanpage facebook
+            </div>
+            <div class="c5"></div>
+            <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0" nonce="8umr5rzT"></script>
+<div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="300" data-height="180" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+          </div>
+        </div>
+              
+            
+        </div>
+  
+        <div class="footer-copyright">
+          <div class="grid">
+            Copyright © 2023 companys
+          </div>
+        </div>
+           
+        </div>
+      </div>
+
+     
+    </footer>
+    <!-- end footer -->
+</div>
+
+
+  <script src="/js/jquery.fancybox.js"></script>
+ 
+  
+  <script src="/js/script.js"></script>
+
+  <script src="/js/jquery-ui.min.js"></script>
+  <script src="/js/jquery.form.min.js"></script>
+  <script src="/js/jquery.mmenu.min.all.js"></script>
+
+  
+</body>
+
+</html>
